@@ -1,0 +1,143 @@
+.login {
+    
+}
+
+.login::before{
+    background-image:url('https://assets.nflxext.com/ffe/siteui/vlv3/935156fb-9579-4fc2-ad94-70680402b8ef/3689d1b9-def2-446b-bc6c-ba159a4469f8/IN-en-20230109-popsignuptwoweeks-perspective_alpha_website_large.jpg');
+    opacity:.5;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    content: "";
+}
+
+.login_box{
+    background-color:black;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 65px;
+    width: 380px;
+    height: 575px;
+    border-radius: 6px;
+    padding-top: 40px;
+    position: relative; 
+}
+
+.login_div{
+    
+    border: 0;
+    border-radius: 4px;
+    color: #fff;
+    width: 300px;
+    line-height: 50px;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    position: relative;
+}
+    
+
+    
+.Login__form input  {
+    border-radius: 3px;
+    border: none;
+    height: 41px;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    margin-left: 0;
+    margin-top: 30px;
+    
+    }
+
+::placeholder{
+        font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+        font-size: large;
+        padding-left: 10px;
+    }    
+        
+.button_signin {
+    display: inline-block;
+    margin-left: auto;
+    border: none;
+    border-radius: 3px;
+    width: 100%;
+    height: 47px;
+    background-color: red;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 750;
+    margin-top: 80px;
+    }    
+ 
+.text_header{
+    color: #fff;
+    margin-left:0PX;
+    margin-top: 12px;
+
+}
+
+.text_bottom_1{
+    color: #737373;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 16px;
+}
+
+.text_bottom_2{
+    color: #8c8c8c;
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: 16px;
+}
+
+.text_bottom_3{
+    color: #8c8c8c;
+    font-size: 13px;
+    font-weight: 400;
+    margin-top:-5px;
+    margin-left: 6px;
+}
+
+
+
+.signup_link{
+    color: #fff;
+    font-weight: 400;
+}
+
+.bottom_para_div{
+    margin-left: 0px;
+    line-height: 0px;
+}
+
+.bottom_signup_div{
+    margin-left: 0px;
+    line-height: 23px;
+    margin-top: 75px;
+}
+
+.learn_more_button{
+    background-color: transparent;
+    border: none;
+    color: #0071eb;
+    cursor: pointer;
+    display: inline;
+    font-family: inherit;
+    font-size: inherit;
+    padding: 0;
+}
+.text_bottom_3_span{
+    margin-left: -5px;
+}
+
+.signup_link_button{
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    display: inline;
+    font-family: inherit;
+    font-size: inherit;
+    padding: 0;
+}

@@ -1,0 +1,66 @@
+.navbar{
+    display: flex;
+    top: 0;
+    width: 100%;
+    background-color:transparent;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    height: 25px;
+    padding-top: 20px;
+    
+
+}
+
+button{
+    padding: 0;
+    margin:0;
+}
+
+.login_button{
+    background-color: red;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    height: 35px;
+    outline: none;
+    width: 80px;
+    vertical-align: middle;
+    font-size: medium;
+    top: 25px;
+    padding: 0;
+    margin-right: 70px;
+    margin-left: -600px;
+    margin-top: 6px;
+
+    
+}
+.logo{
+    left: 25px;
+    width: 165px;
+    top: 8px;
+    position: relative; 
+}
+
+.language_button{
+    background-color:black;
+    border-radius: 2px;
+    color: #fff;
+    height: 35px;
+    outline: none;
+    width: 90px;
+    vertical-align: middle;
+    font-size: medium;
+    top: 25px;
+    margin-right: -450px;
+    padding: 0;
+    margin-top: 6px;
+    border: 1px solid #aaa;
+}
+
+
+.avatar{
+    position: fixed;
+    right: 20px;
+    width: 30px;
+}
