@@ -3,13 +3,13 @@ import { getFirestore } from "firebase/firestore";
 import { getAuth } from "firebase/auth";
 
 const firebaseConfig = {
-    apiKey: API_KEY,
+    apiKey: process.env.API_KEY,
     authDomain: "netflix-project-de277.firebaseapp.com",
     projectId: "netflix-project-de277",
     storageBucket: "netflix-project-de277.appspot.com",
-    messagingSenderId: MESSAGING_SENDER_ID,
+    messagingSenderId: process.env.MESSAGING_SENDER_ID,
     appId: APP_ID,
-    measurementId:MEASUREMENT_ID
+    measurementId:process.env.MEASUREMENT_ID
   };
 const Firebase=initializeApp(firebaseConfig);
 const db = getFirestore()
